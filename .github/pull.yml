@@ -1,0 +1,5 @@
+version: "1"
+rules:
+  - base: master
+    upstream: t00t00-crypto:master    # change `wei` to the owner of upstream repo
+    mergeMethod: hardreset
